@@ -10,6 +10,7 @@
 \usepackage{float}
 \usepackage[margin=1in]{geometry}
 \usepackage{authblk}
+% Removed tikz and pgfplots since we're using actual figures now
 
 % Set graphics path for figures
 \graphicspath{{figures/}}
@@ -113,6 +114,7 @@ Integration using the trapezoidal rule yields:
 \end{equation}
 where the uncertainty reflects a 3\% systematic error from lattice spacing and continuum extrapolation procedures.
 
+% Figure 1: C-function plot
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{c_function.pdf}
@@ -188,11 +190,28 @@ $\beta_J$ (spin) & 25.3 & $\pm 2.2$ & $11\sigma$ \\
 
 The fit achieves $R^2 = 0.851$, indicating that 85\% of the variance in hadron masses is explained by this simple linear relation.
 
+% Figure 1: C-function plot (add this after Table 1)
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{linear_fit.pdf}
+\includegraphics[width=0.8\textwidth]{figures/c_function.pdf}
+\caption{Continuum-extrapolated entropic c-function from lattice QCD calculations. The shaded region indicates the main entropy drop between 3 GeV and 0.2 GeV where confinement occurs.}
+\label{fig:cfunction}
+\end{figure}
+
+% Figure 2: Linear fit (this replaces the TikZ figure)
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/linear_fit.pdf}
 \caption{Linear fit of the entropy-mass relation. Error bars include 3\% systematic uncertainty from lattice c-function. All hadrons, including excited states, follow the same linear relation with $R^2 = 0.851$.}
 \label{fig:linearfit}
+\end{figure}
+
+% Figure 3: Quantum number trends (optional - add after Section 4.2)
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/quantum_trends.pdf}
+\caption{Quantum number trends in the entropy-mass relation. Left: Mass ratio vs baryon number, colored by strangeness. Right: Mass ratio vs total angular momentum, colored by baryon number. The clear separation demonstrates the linear dependence on quantum numbers.}
+\label{fig:trends}
 \end{figure}
 
 \subsection{Key Physical Insights}
@@ -213,6 +232,7 @@ The fitted coefficients reveal a clear hierarchy:
 
 Remarkably, excited states such as $\pi(1300)$, $N(1440)$, $K(1460)$, and $\rho(1450)$ follow precisely the same linear relation as ground states. This universality indicates that the formula encodes the fundamental topology of confinement rather than specific energy scales or dynamical details.
 
+% Figure 3: Quantum number trends (optional)
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{quantum_trends.pdf}
@@ -321,6 +341,9 @@ This relation, valid for both ground and excited states with $R^2 = 0.851$, reve
 
 The discovery opens new directions for understanding strong interactions through information theory, suggests deep connections between QCD and gravity, and provides a predictive framework for hadron spectroscopy. Future work should extend this analysis to heavy flavors, finite temperature, and exotic states to fully explore the implications of this fundamental entropy-mass connection.
 
+\section*{Acknowledgments}
+
+[To be added based on your specific acknowledgments]
 
 \begin{thebibliography}{99}
 

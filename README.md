@@ -16,8 +16,7 @@ where |ΔS_RG| ≈ 9.81 k_B is the universal entropy lost from 3 GeV to 0.2 GeV.
 qcd-entropy-mass/
 ├── paper/
 │   ├── Universal_Entropy_Mass_Relation_in_QCD.pdf  # Final paper
-│   ├── Universal_Entropy_Mass_Relation_in_QCD.tex  # Original LaTeX
-│   ├── main.tex                                    # Clean LaTeX version
+│   ├── main.tex                                    # LaTeX source
 │   └── figures/                                    # All figures (PDF & PNG)
 ├── code/
 │   ├── qcd_entropy_code.py      # Complete analysis code
@@ -52,19 +51,23 @@ a_B (baryon): 15.0 ± 2.4
 α_S (strangeness): 11.4 ± 1.2
 β_J (spin): 25.3 ± 2.2
 
-Citation
+## Citation
+
 If you use this work, please cite:
 
-bibtex@article{Tupay2025,
+```bibtex
+@article{Tupay2025,
   title={Universal Entropy-Mass Relation in QCD: Discovery from Lattice c-Function},
   author={Tupay, Johann Anton Michael},
-  journal={arXiv preprint arXiv:2XXX.XXXXX},
-  year={2025}
+  journal={Zenodo},
+  year={2025},
+  doi={10.5281/zenodo.16743904},
+  url={https://doi.org/10.5281/zenodo.16743904}
 }
 
 Author
 Johann Anton Michael Tupay
-Email: jamtupayl@icloud.com
+Email: jamtupay@icloud.com
 Location: London, United Kingdom
 
 License
