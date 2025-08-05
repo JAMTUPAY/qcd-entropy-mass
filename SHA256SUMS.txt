@@ -1,0 +1,18 @@
+# SHA256 Checksums for QCD Entropy-Mass Discovery
+# Generated on 2025-08-05 14:20:53 UTC
+# DOI: 10.5281/zenodo.16743904
+
+Paper files:
+dc7bf33a7b89db162e47675a2fe0c78d3f28d573d89198424393129cb75d672f  Universal_Entropy_Mass_Relation_in_QCD.pdf
+569a50cdd42bb09017c67d4382efd95f646d298051269ac6d2ea25af7dbcb27c  Universal_Entropy_Mass_Relation_in_QCD.tex
+2e65439af4e428d55a97e9f14ce1e211e69bede7cf59d2d1e96cafe2a3bb9935  main.tex
+
+Analysis code:
+db8dbe1eccbf5d4b505f22038c5aede98ac7c92287a40c0c1db19b5a0b51898f  qcd_entropy_code.py
+d38dfdea0ea5ee31d4f87d16f836f2a76f92551f917fff00108e8b4d35dc5dd2  simple_extract_figures.py
+
+Data files:
+7675164091c479857795ac2ccf62d593c63292beac28825be41bad16da6f29ef  lattice_cfunction.csv
+
+
+Master hash of this file: d919aa41d2e9b254a6083843dcfc37012cbfc161e5eb3a66b604bee75eb687d2
