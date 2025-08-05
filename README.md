@@ -1,4 +1,6 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16743904.svg)](https://doi.org/10.5281/zenodo.16743904)# Universal Entropy-Mass Relation in QCD
+# Universal Entropy-Mass Relation in QCD
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16743904.svg)](https://doi.org/10.5281/zenodo.16743904)#
 
 
 ## Abstract
@@ -10,6 +12,7 @@ We report the discovery of a universal linear relationship between hadron masses
 where |ΔS_RG| ≈ 9.81 k_B is the universal entropy lost from 3 GeV to 0.2 GeV.
 
 ## Repository Structure
+
 qcd-entropy-mass/
 ├── paper/
 │   ├── Universal_Entropy_Mass_Relation_in_QCD.pdf  # Final paper
@@ -35,6 +38,7 @@ python code/qcd_entropy_code.py
 
 # Or just generate figures
 python simple_extract_figures.py
+
 Key Results
 
 R² = 0.851 across 13 hadrons (ground + excited states)
@@ -50,21 +54,19 @@ a_B (baryon): 15.0 ± 2.4
 
 Citation
 If you use this work, please cite:
+
 bibtex@article{Tupay2025,
   title={Universal Entropy-Mass Relation in QCD: Discovery from Lattice c-Function},
   author={Tupay, Johann Anton Michael},
   journal={arXiv preprint arXiv:2XXX.XXXXX},
   year={2025}
 }
+
 Author
 Johann Anton Michael Tupay
 Email: jamtupayl@icloud.com
 Location: London, United Kingdom
+
 License
 MIT License - see LICENSE file
 
-Save it, then push:
-```bash
-git add README.md
-git commit -m "Update README with complete file structure"
-git push
