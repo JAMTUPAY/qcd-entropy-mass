@@ -1,6 +1,6 @@
-# Universal Entropy-Mass Relation in QCD
+# Universal Entropy-Mass Relation in QCD #
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16743904.svg)](https://doi.org/10.5281/zenodo.16743904)#
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16743904.svg)](https://doi.org/10.5281/zenodo.16743904)
 
 
 ## Abstract
