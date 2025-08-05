@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# LaTeX
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+
+# Mac
+.DS_Store
+
+# Temporary
+*.tmp
+*.bak
+
