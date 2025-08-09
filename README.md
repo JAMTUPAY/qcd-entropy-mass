@@ -1,6 +1,6 @@
 # Universal Entropy-Mass Relation in QCD #
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16743904.svg)](https://doi.org/10.5281/zenodo.16743904)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16743904.svg)](https://doi.org/10.5281/zenodo.16785599)
 
 
 ## Abstract
@@ -62,7 +62,7 @@ If you use this work, please cite:
   journal={Zenodo},
   year={2025},
   doi={10.5281/zenodo.16743904},
-  url={https://doi.org/10.5281/zenodo.16743904}
+  url={https://doi.org/10.5281/zenodo.16785599}
 }
 
 Author
