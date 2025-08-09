@@ -61,7 +61,7 @@ If you use this work, please cite:
   author={Tupay, Johann Anton Michael},
   journal={Zenodo},
   year={2025},
-  doi={10.5281/zenodo.16743904},
+  doi={10.5281/zenodo.16785599},
   url={https://doi.org/10.5281/zenodo.16785599}
 }
 
